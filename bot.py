@@ -1,4 +1,15 @@
+import re
 import os
+import sys
+import json
+import time
+import asyncio
+import requests
+import subprocess
+import urllib.parse
+import yt_dlp
+import cloudscraper
+import m3u8
 import subprocess
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
