@@ -1,0 +1,6 @@
+python-telegram-bot==20.3
+requests
+m3u8
+ffmpeg
+tgcrypto
+pytube
