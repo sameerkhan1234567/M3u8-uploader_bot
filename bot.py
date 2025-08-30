@@ -124,9 +124,9 @@ async def handle_link(_, message: Message):
     status_msg = await message.reply_text("🔍 Resolving link...")
     try:
         final = await get_final_url(url)
-        await status_msg.edit_text(f"✅ Final URL:\n`{final}`", parse_mode="md")
+        await status_msg.edit_text(f"✅ Final URL:\n`{final}`", parse_mode="markdown")
     except Exception as e:
-        await status_msg.edit_text(f"❌ Error resolving: `{e}`", parse_mode="md")
+        await status_msg.edit_text(f"❌ Error resolving: `{e}`", parse_mode="markdown")
         return
     out_path = TMP / f"{message.message_id}_video.mp4"
     try:
