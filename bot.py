@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 
 API_ID = int(os.environ.get("API_ID", "29755489"))
-API_HASH = os.environ.get("API_HASH", 05e0d957751c827aa03494f503ab54fe")
+API_HASH = os.environ.get("API_HASH", "05e0d957751c827aa03494f503ab54fe")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 CLASSPLUS_TOKEN = os.environ.get("CLASSPLUS_TOKEN", "")
 
